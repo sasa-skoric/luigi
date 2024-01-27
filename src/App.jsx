@@ -1,16 +1,17 @@
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./pages/Home";
-import Menu from "./pages/Menu";
-import About from "./pages/About";
-import Contact from "./pages/Contact";
-import Navbar from "./components/Navbar";
+import Home from "./pages/Home/Home";
+import Menu from "./pages/Menu/Menu";
+import About from "./pages/About/About";
+import Contact from "./pages/Contact/Contact";
+import Navbar1 from "./components/Navbar1";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
     <>
       <BrowserRouter>
-        <Navbar />
+        <Navbar1 />
 
         <Routes>
           <Route path="/luigi/" element={<Home />} />
@@ -21,6 +22,8 @@ function App() {
 
           <Route path="/luigi/contact" element={<Contact />} />
         </Routes>
+
+        <Footer />
       </BrowserRouter>
     </>
   );

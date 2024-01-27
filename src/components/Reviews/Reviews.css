@@ -1,0 +1,6 @@
+.reviews_component img {
+  width: 15%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  border: thin;
+}

@@ -1,0 +1,41 @@
+.home_page header {
+  background-image: url(../../assets/18.jpg);
+  background-size: cover;
+  height: 85vh;
+  background-position: center;
+}
+
+header h1 {
+  font-size: 3.8rem;
+}
+
+.home_page header h1,
+.home_page header h2 {
+  text-shadow: 2px 2px 8px rgb(255, 255, 255);
+}
+
+.menu_section {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../assets/19.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.menu_section p {
+  text-shadow: 1px 1px 8px #000000;
+}
+
+img {
+  border: 5px solid #222;
+}
+
+@media screen and (max-width: 770px) {
+  header h1 {
+    font-size: 3.5rem;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  header h1 {
+    font-size: 3rem;
+  }
+}
